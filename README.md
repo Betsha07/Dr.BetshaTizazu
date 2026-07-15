@@ -38,3 +38,33 @@ This is a ready-to-use one-page academic website for Dr. Betsha Tizazu Abreham.
 
 - `betshatizazu.com`
 - `drbetshatizazu.com`
+
+
+## Updating News and Blog
+
+Open `index.html` and search for:
+
+- `EDIT NEWS ITEMS HERE`
+- `EDIT BLOG ITEMS HERE`
+
+Copy one existing card, paste it below, and change the date, title, and paragraph.
+
+Example news card:
+
+```html
+<article class="news-card">
+  <span class="news-date">2026</span>
+  <h3>Your new update title</h3>
+  <p>Your update description goes here.</p>
+</article>
+```
+
+Example blog card:
+
+```html
+<article class="blog-card">
+  <span class="blog-tag">Topic</span>
+  <h3>Your blog title</h3>
+  <p>Short description of the blog post.</p>
+</article>
+```
